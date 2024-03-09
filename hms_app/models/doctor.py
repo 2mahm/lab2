@@ -6,7 +6,7 @@ class Doctor(models.Model):
     _description = 'Doctor'
     _rec_name = 'f_name'
 
-    f_name = fields.Char("First Name")
-    l_name = fields.Char('Last Name')
+    first_name = fields.Char("First Name")
+    last_name = fields.Char('Last Name')
     image = fields.Binary()
 
